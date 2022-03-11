@@ -1,0 +1,37 @@
+{
+  "intents": [
+    {
+      "intent": "DeliverFact",
+      "slots":[
+        {
+          "name":"which",
+          "type":"PRESTONS"
+        }
+      ]
+    },
+    {
+      "intent": "WhichPreston",
+      "slots":[
+        {
+          "name":"which",
+          "type":"PRESTONS"
+        }
+      ]
+    },
+    {
+      "intent": "AMAZON.YesIntent"
+    },
+    {
+      "intent": "AMAZON.NoIntent"
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    }
+  ]
+}
